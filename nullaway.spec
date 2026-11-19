@@ -23,7 +23,7 @@ BuildRequires:	sysjar
 BuildRequires:	javapackages-filesystem
 BuildRequires:	mvn(com.google.errorprone:error_prone_check_api) = 2.50.0
 BuildRequires:	mvn(com.google.errorprone:error_prone_annotation) = 2.50.0
-BuildRequires:	mvn(com.google.errorprone:error_prone_annotations) = 2.52.0
+BuildRequires:	mvn(com.google.errorprone:error_prone_annotations) = 2.53.0
 BuildRequires:	mvn(org.checkerframework:dataflow-nullaway) = 4.4.0
 BuildRequires:	mvn(org.checkerframework:dataflow-nullaway) = 4.0.0
 BuildRequires:	mvn(com.google.guava:guava) = 33.8.0-jre
@@ -41,7 +41,7 @@ Requires:	mvn(com.uber.nullaway:nullaway-annotations) = %{version}
 Requires:	mvn(com.uber.nullaway:nullaway-annotations) = 0.13.7
 Requires:	mvn(com.google.errorprone:error_prone_check_api) = 2.50.0
 Requires:	mvn(com.google.errorprone:error_prone_annotation) = 2.50.0
-Requires:	mvn(com.google.errorprone:error_prone_annotations) = 2.52.0
+Requires:	mvn(com.google.errorprone:error_prone_annotations) = 2.53.0
 Requires:	mvn(org.checkerframework:dataflow-nullaway) = 4.4.0
 Requires:	mvn(org.checkerframework:dataflow-nullaway) = 4.0.0
 Requires:	mvn(com.google.guava:guava) = 33.8.0-jre
@@ -202,7 +202,7 @@ grep -F -q 'com.uber.nullaway.JSpecifyUnrecognizedAnnotationLocation' %{_builddi
 	req_dep com.uber.nullaway nullaway-annotations 0.14.4
 	req_dep com.google.errorprone error_prone_check_api 2.50.0
 	req_dep com.google.errorprone error_prone_annotation 2.50.0
-	req_dep com.google.errorprone error_prone_annotations 2.52.0
+	req_dep com.google.errorprone error_prone_annotations 2.53.0
 	req_dep org.checkerframework dataflow-nullaway 4.4.0
 	req_dep com.google.guava guava 33.8.0-jre
 	req_dep org.jspecify jspecify 1.0.0
